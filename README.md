@@ -1,4 +1,4 @@
-# Name Nationality Predictor
+# Name: Nationality Predictor
 
 ## Description
 
@@ -28,7 +28,7 @@ The Name Nationality Predictor is a React application that predicts the likely n
 1. **Clone the Repository**:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/PretoriusMikael/nationality-predictor.git
    ```
 
 # Getting Started with Create React App
