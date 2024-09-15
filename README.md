@@ -1,3 +1,36 @@
+# Name Nationality Predictor
+
+## Description
+
+The Name Nationality Predictor is a React application that predicts the likely nationality of a person based on their name using the [Nationalize API](https://nationalize.io). The app features two main components: one for user input and another for fetching and displaying nationality predictions.
+
+## Features
+
+- **Input Field**: Automatically focuses on the input field for entering a name.
+- **Nationality Prediction**: Predicts the nationality based on the name entered and displays the result with the probability.
+
+## Components
+
+### `AutoFocusInput`
+
+- **Description**: A component that provides an auto-focused input field for the user to enter their name.
+- **Props**:
+  - `setUserName` (function): A function passed from the parent component to update the username state.
+
+### `ButtonAPI`
+
+- **Description**: A component that fetches nationality prediction data from the Nationalize API based on the entered name and displays the predicted country and probability.
+- **Props**:
+  - `userName` (string): The name provided by the user to fetch nationality predictions.
+
+## Installation
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone <repository-url>
+   ```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
